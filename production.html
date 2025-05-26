@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#231a10] dark group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#231a10] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col">
+                  <h1 class="text-white text-base font-medium leading-normal">HiveMind</h1>
+                  <p class="text-[#cbae90] text-sm font-normal leading-normal">v1.2</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="House" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Dashboard</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="ListBullets" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Hives</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-full bg-[#493622]">
+                    <div class="text-white" data-icon="ChartLine" data-size="24px" data-weight="fill">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM200,176a8,8,0,0,1,0,16H56a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v62.92l34.88-29.07a8,8,0,0,1,9.56-.51l43,28.69,43.41-36.18a8,8,0,0,1,10.24,12.3l-48,40a8,8,0,0,1-9.56.51l-43-28.69L64,155.75V176Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Production</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="Heart" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Health</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="Gear" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Settings</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-white tracking-light text-[32px] font-bold leading-tight">Production Logs</p>
+                <p class="text-[#cbae90] text-sm font-normal leading-normal">View and manage honey production records for your hives.</p>
+              </div>
+            </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#684d31] bg-[#231a10]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#342718]">
+                      <th class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Date</th>
+                      <th class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Hive ID</th>
+                      <th class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">
+                        Amount Harvested (lbs)
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#684d31]">
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">
+                        2024-07-20
+                      </td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">Hive 001</td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">15</td>
+                    </tr>
+                    <tr class="border-t border-t-[#684d31]">
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">
+                        2024-07-20
+                      </td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">Hive 002</td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">12</td>
+                    </tr>
+                    <tr class="border-t border-t-[#684d31]">
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">
+                        2024-07-27
+                      </td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">Hive 001</td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">18</td>
+                    </tr>
+                    <tr class="border-t border-t-[#684d31]">
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">
+                        2024-07-27
+                      </td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">Hive 002</td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">14</td>
+                    </tr>
+                    <tr class="border-t border-t-[#684d31]">
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">
+                        2024-08-03
+                      </td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">Hive 001</td>
+                      <td class="table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360 h-[72px] px-4 py-2 w-[400px] text-[#cbae90] text-sm font-normal leading-normal">20</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-120{display: none;}}
+                @container(max-width:240px){.table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-240{display: none;}}
+                @container(max-width:360px){.table-2081548a-85e4-4549-a9a8-1b0d685c2313-column-360{display: none;}}
+              </style>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Add New Production Log</h2>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Date</p>
+                <input
+                  placeholder="YYYY-MM-DD"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#684d31] bg-[#342718] focus:border-[#684d31] h-14 placeholder:text-[#cbae90] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Hive ID</p>
+                <input
+                  placeholder="e.g., Hive 001"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#684d31] bg-[#342718] focus:border-[#684d31] h-14 placeholder:text-[#cbae90] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Amount Harvested (lbs)</p>
+                <input
+                  placeholder="e.g., 15"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#684d31] bg-[#342718] focus:border-[#684d31] h-14 placeholder:text-[#cbae90] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#ee800b] text-[#231a10] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Add Log</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
